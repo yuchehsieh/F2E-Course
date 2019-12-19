@@ -5,11 +5,12 @@ $(document).ready(function () {
   let openingAnimData = {
     container: openingAnimWindow,
     animType: 'svg',
-    loop: false,
+    loop: true,
     prerender: true,
-    autoplay: false,
-    // path: 'json/download-icon.json'
-    path: 'https://assets.lottiefiles.com/datafiles/jORpumH9Yn0XoXQ/data.json'
+    autoplay: true, // SET to auto play
+    //path: 'https://assets.lottiefiles.com/datafiles/jORpumH9Yn0XoXQ/data.json'
+    path: 'json/done.json'
+    //path: 'https://assets1.lottiefiles.com/datafiles/jEgAWaDrrm6qdJx/data.json'
   };
   // set bodymovin
   let openingAnim = bodymovin.loadAnimation(openingAnimData);
