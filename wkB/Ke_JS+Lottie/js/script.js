@@ -9,6 +9,7 @@ $(document).ready(function () {
     prerender: true,
     autoplay: true, // SET to auto play
     //path: 'https://assets.lottiefiles.com/datafiles/jORpumH9Yn0XoXQ/data.json'
+    //path: 'json/loading_1.json'
     path: 'json/done.json'
     //path: 'https://assets1.lottiefiles.com/datafiles/jEgAWaDrrm6qdJx/data.json'
   };
